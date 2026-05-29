@@ -1,11 +1,11 @@
 {
   "files": [],
-	"references": [
-		{
-			"path": "./main-workspace/tsconfig.json"
-		},
-		{
-			"path": "./style-workspace/tsconfig.json"
-		},
-	]
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    },
+  ]
 }

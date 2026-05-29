@@ -1,6 +1,0 @@
-{
-  "extends": "../tsconfig.app.template.json",
-  "include": [
-    "src",
-  ]
-}
