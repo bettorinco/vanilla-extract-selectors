@@ -4,15 +4,12 @@ import { recipe } from "@vanilla-extract/recipes";
 export const parentRecipe = recipe({
   variants: {
     // Case 1 => Causes selectors to merge
-    type: { regular: "", special: "" },
+    type: { regular: {}, special: "" },
 
-    // Case 2 => Ok
+    // Case 2 => Ok, as long as 'regular' is not used as a selector
     // type: { regular: "", special: { textAlign: "left" } },
 
     // Case 3 => Ok
-    // type: { regular: "", special: {} },
-
-    // Case 4 => Ok
     // type: { regular: {}, special: {} },
   },
   defaultVariants: {
