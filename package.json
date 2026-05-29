@@ -1,0 +1,16 @@
+{
+  "name": "vanilla-extract-selectors",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "workspaces": [
+    "style-workspace",
+    "main-workspace"
+  ],
+  "dependencies": {
+    "vite": "^8.0.14"
+  }
+}

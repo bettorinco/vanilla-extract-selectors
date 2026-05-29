@@ -1,0 +1,7 @@
+{
+	"extends": "../tsconfig.node.template.json",
+	"include": [
+		"./src",
+		"./index.ts"
+	]
+}
